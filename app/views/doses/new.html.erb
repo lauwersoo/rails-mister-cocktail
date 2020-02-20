@@ -1,0 +1,7 @@
+<h1>Create a new dose</h1>
+
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.input :description, label: 'Your dose name please', error: 'Dose name is mandatory, please specify one' %>
+  <%= f.association :ingredient, label: 'Your ingredient name please', error: 'Ingredient name is mandatory, please specify one' %>
+  <%= f.button :submit %>
+<% end %>
