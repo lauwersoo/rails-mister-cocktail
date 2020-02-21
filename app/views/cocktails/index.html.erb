@@ -1,9 +1,23 @@
-<h1>Your cocktails</h1>
+<div class="header">
+  <h1 class="header-title1">CREATE</h1>
+  <h1 class="header-title2">your</h1>
+  <h1 class="header-title3">boose</h1>
+  <h1 class="header-title4">BOOK</h1>
+</div>
 
-<% @cocktails.each do |cocktail| %>
-  <br> <%= link_to cocktail.name, cocktail_path(cocktail) %>
-<% end %>
-<br>
-<br>
-<%= link_to "Create a cocktail", new_cocktail_path(@cocktail) %>
+<div>
+  <h1>Wanna add a new boose to your bar?</h1>
+  <%= link_to "Click here", new_cocktail_path(@cocktail) %>
+</div>
 
+<div class="body">
+  <% @cocktails.each do |cocktail| %>
+    <div class="card">
+      <%= link_to cocktail.name, cocktail_path(cocktail) %>
+    </div>
+  <% end %>
+</div>
+
+<div class="footer">
+
+</div>

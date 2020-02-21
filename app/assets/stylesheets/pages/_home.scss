@@ -1,1 +1,49 @@
 // Specific CSS for your home-page
+.header {
+  background-image: url("/images/header1.jpg");
+  width: 1440px;
+  height: 100vh;
+  background-size: 1600px;
+  background-position: right 0px bottom 45%;
+}
+
+.header-title1 {
+  color: rgb(242, 238, 227);
+  position: absolute;
+  top: 220px;
+  left: 160px;
+  font-family: 'Cinzel', ;
+  font-size: 120px;
+  margin: 0px;
+}
+
+.header-title2 {
+  color: rgb(242, 238, 227);
+  position: absolute;
+  top: 330px;
+  left: 170px;
+  font-family: 'Cinzel', ;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.header-title3 {
+  color: rgb(242, 238, 227);
+  position: absolute;
+  top: 313px;
+  left: 283px;
+  font-family: 'Cinzel', ;
+  font-size: 100px;
+  margin: 0px;
+  letter-spacing: 5px;
+}
+
+.header-title4 {
+  color: rgb(242, 238, 227);
+  position: absolute;
+  top: 385px;
+  left: 160px;
+  font-family: 'Cinzel', ;
+  font-size: 155px;
+  margin: 0px;
+}
